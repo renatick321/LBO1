@@ -1,0 +1,62 @@
+@media only screen and (max-width: 768px){
+
+	*{
+		-webkit-user-select: none; /* Safari */
+		-ms-user-select: none; /* IE 10+ and Edge */
+		user-select: none; /* Standard syntax */
+	}
+	.right_left{
+		display: none;
+	}
+
+	.slider_wraper{
+		overflow: scroll;
+		margin-left: 0;
+	}
+	.slider_wraper::-webkit-scrollbar{
+		display: none;
+	}
+
+	.slider{
+		margin: 0 25px 25px 25px;
+		width: calc(100% - 50px);
+	}
+
+	.genre_grid{
+		margin: 0 25px 25px 25px;
+		width: calc(100% - 50px);
+		padding: 10px;
+	}
+
+	.intro{
+		height: 100vh;
+	}
+
+	.intro_img{
+		height: auto;
+	}
+
+	.intro_title{
+		font-size: 70px;
+		width: 300px;
+		margin-top: 250px;
+	}
+
+
+	.nav_link{
+		font-size: 16px;
+		margin-right: 14px;
+	}
+
+	/*Страница с списком книг*/
+
+	.main_column{
+		margin: 60px 20px 0 20px;
+		width: calc(75% - 40px)
+	}
+
+	.second_column{
+		margin-right: 20px;
+		width: calc(25% - 40px)
+	}
+}
